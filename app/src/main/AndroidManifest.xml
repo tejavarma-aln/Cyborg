@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cyborg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cyborg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cyborg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".Views.CashBank"/>
+        <activity android:name=".Views.HtmlReports" />
+        <activity android:name=".Views.OutStanding" />
+        <activity android:name=".Views.StockSummary" />
+        <activity android:name=".Views.Vouchers" />
+        <activity android:name=".Views.LedgerActivity" />
+        <activity android:name=".Views.HomeActivity" />
+        <activity android:name=".Views.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

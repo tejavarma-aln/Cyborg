@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.OutStanding"
+    android:id="@+id/activityOutStanding">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/appbarlayout"
+            android:id="@+id/toolbar"/>
+
+        <include
+            layout="@layout/base_period"/>
+
+        <include
+            layout="@layout/base_recycle_view"
+            android:id="@+id/listOfInvoices"
+            android:visibility="gone"/>
+
+        <include
+            layout="@layout/progress_bar"/>
+
+        <include
+            layout="@layout/empty_data_layout"
+            android:visibility="gone"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

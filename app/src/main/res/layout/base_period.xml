@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/period_button"
+        android:text="@string/period"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:drawableStart="@drawable/ic_baseline_calendar_today_24" />
+
+</RelativeLayout>

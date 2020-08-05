@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ledgerViewHolder"
+    app:cardElevation="2dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="10dp"
+    android:layout_margin="2dp"
+    android:foreground="?selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ledgerName"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ledgerClosing"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

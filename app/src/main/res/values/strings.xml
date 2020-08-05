@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Cyborg</string>
+    <string name="period">Period</string>
+    <string name="search">Search</string>
+    <string name="info">Info</string>
+    <string name="ledger_report">Ledger Report</string>
+    <string name="stock_summary">Stock Summary</string>
+    <string name="balance_sheet">Balance Sheet</string>
+    <string name="profit_and_loss">Profit and Loss</string>
+    <string name="daybook">DayBook</string>
+    <string name="cash_and_bank">Cash and Bank</string>
+    <string name="sales_register">Sales Register</string>
+    <string name="purchase_register">Purchase Register</string>
+    <string name="payments">Payments</string>
+    <string name="receipts">Receipts</string>
+    <string name="outstanding">OutStanding</string>
+    <string name="payable">Payable</string>
+    <string name="receivable">Receivable</string>
+    <string name="rate">Rate</string>
+    <string name="qty">Qty</string>
+    <string name="opening">Opening:</string>
+    <string name="amount">Amount</string>
+    <string name="outward">OutWard</string>
+    <string name="inward">Inward:</string>
+    <string name="closing">Closing</string>
+    <string name="closing_value">Closing Value</string>
+    <string name="separator">:</string>
+    <string name="opening_balance">Opening Balance</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="closing_balance">Closing Balance</string>
+    <string name="enter_tally_ip_address">Enter Tally IP Address</string>
+    <string name="enter_tally_port">Enter Tally Port</string>
+    <string name="connect">Connect</string>
+    <string name="empty_data_try_changing_period">Empty Data,try changing period</string>
+</resources>
