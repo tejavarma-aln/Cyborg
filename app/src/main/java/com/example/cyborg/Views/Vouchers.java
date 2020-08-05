@@ -10,7 +10,6 @@ import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
-import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
@@ -22,7 +21,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.cyborg.Adaptors.BaseVoucherAdapter;
 import com.example.cyborg.Models.BaseVoucherModel;
 import com.example.cyborg.R;
-import com.example.cyborg.Utils.Constants;
 import com.example.cyborg.Utils.DateUtil;
 import com.example.cyborg.ViewModels.BaseVoucherViewModel;
 import com.example.cyborg.ViewModels.LedgerVchViewModel;
@@ -181,7 +179,7 @@ public class Vouchers extends AppCompatActivity {
     }
 
     private void InitToolBar(String title) {
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(title);
         toolbar.setNavigationIcon(R.drawable.ic_baseline_arrow_back_24);
         setSupportActionBar(toolbar);
