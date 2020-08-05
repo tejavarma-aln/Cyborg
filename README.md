@@ -14,6 +14,8 @@ You need to enable tally to act as an odbc server and set the port to 9000 which
 
 You can enable by going to GatewayOfTally->F12 Configuration->Advanced Configuration->Set tallyerp9 acting as 'Server' and enable ODBC Server to 'Yes' then set Port to '9000' which is default
 
+Make your Machine ip address static (where tally is installed) so you need to enter everytime
+
 While using the application make sure tally is running and company is opened
 
 Browse through the source tree, if you are interested to see how it works
